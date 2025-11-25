@@ -404,6 +404,7 @@ VGG19model = VGG19model.to(device)
 
 ## OUTPUT:
 
+<img width="950" height="950" alt="image" src="https://github.com/user-attachments/assets/f5a93853-71a2-4824-9b3d-ece36691245e" />
 
 
 ## RESULT:
