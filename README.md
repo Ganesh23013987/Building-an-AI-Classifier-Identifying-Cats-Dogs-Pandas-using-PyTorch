@@ -29,6 +29,7 @@ Predicts & displays results on random test images
 
 Make sure your dataset looks like this:
 
+```
 Cat-Dog_Pandas/
 │── Train/
 │     ├── Cat/
@@ -44,6 +45,7 @@ Cat-Dog_Pandas/
       ├── image1.jpg
       ├── image2.jpg
       └── ...
+```
 
 ## 🚀 How to Run the Project (Google Colab)
 1. Mount Google Drive
