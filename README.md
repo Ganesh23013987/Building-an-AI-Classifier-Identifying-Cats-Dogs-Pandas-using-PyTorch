@@ -7,7 +7,7 @@ This project demonstrates how to build an image classifier that can identify Cat
 
 The experiment was implemented in Google Colab and trained on images stored in Google Drive.
 
-📌 Project Highlights
+## Project Highlights
 
 Uses PyTorch & Torchvision
 
@@ -25,7 +25,7 @@ Saves best_model_resnet18.pth
 
 Predicts & displays results on random test images
 
-📂 Dataset Structure
+## 📂 Dataset Structure
 
 Make sure your dataset looks like this:
 
@@ -45,7 +45,7 @@ Cat-Dog_Pandas/
       ├── image2.jpg
       └── ...
 
-🚀 How to Run the Project (Google Colab)
+## 🚀 How to Run the Project (Google Colab)
 1. Mount Google Drive
 from google.colab import drive
 drive.mount('/content/drive')
@@ -57,7 +57,7 @@ drive.mount('/content/drive')
 import torch
 print("CUDA available:", torch.cuda.is_available())
 
-🧠 Training Using ResNet18
+## 🧠 Training Using ResNet18
 
 Load ResNet18 pre-trained model
 
@@ -67,7 +67,7 @@ Replace the fully-connected layer
 
 Train only the classifier
 
-📌 Model Training Output
+## 📌 Model Training Output
 
 The notebook prints:
 
@@ -79,11 +79,11 @@ Best Accuracy achieved
 
 Saved model: best_model_resnet18.pth
 
-🖼️ Prediction Visualization
+## 🖼️ Prediction Visualization
 
 Displays random test images with predicted labels.
 
-🔥 Bonus: VGG19 Model Included
+## 🔥 Bonus: VGG19 Model Included
 
 A second model (VGG19) is prepared for training and comparison.
 
@@ -96,7 +96,7 @@ best_model_resnet18.pth
 
 Upload this file to GitHub under a folder called models.
 
-📘 Tech Stack
+## 📘 Tech Stack
 
 Python
 
@@ -110,13 +110,13 @@ Matplotlib
 
 Sklearn
 
-🙌 Author
+## 🙌 Author
 
-Dinesh Kumar:
+GANESH D
 
 AI & Deep Learning Learner
 
-✅ 2. requirements.txt (copy to your repo)
+## requirements.txt 
 torch
 torchvision
 numpy
@@ -127,7 +127,7 @@ scikit-learn
 Pillow
 tqdm
 
-✅ 3. main.ipynb
+## main.ipynb
 
 ```
 import torch
